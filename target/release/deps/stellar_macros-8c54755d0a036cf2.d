@@ -1,0 +1,10 @@
+/home/adama/Downloads/smartcontract/target/release/deps/stellar_macros-8c54755d0a036cf2.d: /home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/lib.rs /home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/access_control.rs /home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/default_impl_macro.rs /home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/helpers.rs /home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/pausable.rs /home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/upgradeable.rs
+
+/home/adama/Downloads/smartcontract/target/release/deps/libstellar_macros-8c54755d0a036cf2.so: /home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/lib.rs /home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/access_control.rs /home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/default_impl_macro.rs /home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/helpers.rs /home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/pausable.rs /home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/upgradeable.rs
+
+/home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/lib.rs:
+/home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/access_control.rs:
+/home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/default_impl_macro.rs:
+/home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/helpers.rs:
+/home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/pausable.rs:
+/home/adama/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stellar-macros-0.4.1/src/upgradeable.rs:
