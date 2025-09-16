@@ -1,4 +1,4 @@
-# Smart Contract - HackMeridian
+# Smart Contract - Capy's club
 
 ## Descrição
 
@@ -93,9 +93,9 @@ npm run deploy:mainnet
 
 ### Funcionalidades
 
-- [ ] Funcionalidade 1
-- [ ] Funcionalidade 2
-- [ ] Funcionalidade 3
+- [ ] Creation of a Custom Non-Fungible Token (NFT)
+- [ ] Owner-Based Access Control (Ownable)
+- [ ] Sequential NFT Minting
 
 ## Testes
 
@@ -132,12 +132,6 @@ npx hardhat verify --network sepolia DEPLOYED_CONTRACT_ADDRESS "Constructor arg 
 
 ## Segurança
 
-### Auditorias
-
-- [ ] Auditoria interna completa
-- [ ] Auditoria externa (se aplicável)
-- [ ] Testes de penetração
-
 ### Boas Práticas
 
 - Uso de OpenZeppelin para contratos padrão
@@ -159,10 +153,9 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## Contato
 
-- **Desenvolvedor**: [Seu Nome]
-- **Email**: [seu.email@exemplo.com]
-- **LinkedIn**: [Seu LinkedIn]
-- **Twitter**: [@seutwitter]
+- **Desenvolvedor**: Adama Augusto Ndiaye
+- **Email**: ndiayeaan1@gmail.com
+- **Twitter**: @Ndiaye___
 
 ## Recursos Adicionais
 
@@ -173,7 +166,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## Roadmap
 
-- [x] Configuração inicial do projeto
+- [ ] Configuração inicial do projeto
 - [ ] Implementação dos contratos principais
 - [ ] Testes unitários completos
 - [ ] Deploy em testnet
@@ -183,4 +176,4 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
-**Desenvolvido para o HackMeridian 2024** 🚀
+**Desenvolvido para o HackMeridian 2025** 🚀
