@@ -1,179 +1,157 @@
-# Smart Contract - Capy's club
+Smart Contract - Capy's Club
+Description
+This project contains smart contracts developed for HackMeridian, a hackathon focused on blockchain solutions and decentralized technologies.
 
-## Descrição
-
-Este projeto contém smart contracts desenvolvidos para o HackMeridian, um hackathon focado em soluções blockchain e tecnologias descentralizadas.
-
-## Estrutura do Projeto
-
-```
+Project Structure
 smart-contract-hackmeridian/
-├── contracts/          # Smart contracts
-├── scripts/           # Scripts de deploy e interação
-├── test/              # Testes automatizados
-├── hardhat.config.js  # Configuração do Hardhat
-└── package.json       # Dependências do projeto
-```
 
-## Pré-requisitos
+contracts/ — Smart contracts
 
-- Node.js (versão 16 ou superior)
-- npm ou yarn
-- MetaMask ou outra carteira Web3
+scripts/ — Deployment and interaction scripts
 
-## Instalação
+test/ — Automated tests
 
-1. Clone o repositório:
-```bash
-git clone <url-do-repositorio>
+hardhat.config.js — Hardhat configuration
+
+package.json — Project dependencies
+
+Prerequisites
+
+Node.js (version 16 or higher)
+
+npm or yarn
+
+MetaMask or another Web3 wallet
+
+Installation
+Clone the repository:
+git clone <repository-url>
 cd smartcontract--hackmeridian
-```
 
-2. Instale as dependências:
-```bash
+Install dependencies:
 npm install
-```
 
-3. Configure as variáveis de ambiente:
-```bash
+Set up environment variables:
 cp .env.example .env
-# Edite o arquivo .env com suas configurações
-```
 
-## Configuração
+Edit the .env file with your settings
 
-### Variáveis de Ambiente
+Configuration
+Environment Variables
+Create a .env file in the project root with the following variables:
 
-Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+PRIVATE_KEY=your_private_key_here
+INFURA_PROJECT_ID=your_infura_project_id
+ETHERSCAN_API_KEY=your_etherscan_api_key
 
-```env
-PRIVATE_KEY=sua_chave_privada_aqui
-INFURA_PROJECT_ID=seu_project_id_infura
-ETHERSCAN_API_KEY=sua_api_key_etherscan
-```
-
-## Uso
-
-### Compilação
-
-```bash
+Usage
+Compilation
 npm run compile
-```
 
-### Testes
-
-```bash
-npm run test
-```
-
-### Deploy
-
-#### Rede Local (Hardhat)
-```bash
-npm run deploy:local
-```
-
-#### Testnet (Sepolia)
-```bash
-npm run deploy:sepolia
-```
-
-#### Mainnet
-```bash
-npm run deploy:mainnet
-```
-
-## Smart Contracts
-
-### Contratos Principais
-
-- **ContractName.sol**: Descrição do contrato principal
-- **Token.sol**: Implementação de token ERC-20/ERC-721
-- **Governance.sol**: Sistema de governança descentralizada
-
-### Funcionalidades
-
-- [ ] Creation of a Custom Non-Fungible Token (NFT)
-- [ ] Owner-Based Access Control (Ownable)
-- [ ] Sequential NFT Minting
-
-## Testes
-
-O projeto inclui testes abrangentes para todos os contratos:
-
-```bash
-# Executar todos os testes
+Testing
 npm run test
 
-# Executar testes com coverage
-npm run test:coverage
+Deployment
 
-# Executar testes específicos
-npm run test -- --grep "ContractName"
-```
+Local Network (Hardhat): npm run deploy:local
 
-## Deploy e Verificação
+Testnet (Sepolia): npm run deploy:sepolia
 
-### Deploy Automatizado
+Mainnet: npm run deploy:mainnet
 
-O projeto utiliza scripts automatizados para deploy:
+Smart Contracts
+Main Contracts
 
-```bash
-# Deploy em rede específica
-npx hardhat run scripts/deploy.js --network sepolia
-```
+ContractName.sol: Description of the main contract
 
-### Verificação de Contratos
+Token.sol: ERC-20/ERC-721 token implementation
 
-```bash
-# Verificar contrato no Etherscan
+Governance.sol: Decentralized governance system
+
+Features
+
+Creation of a Custom Non-Fungible Token (NFT)
+
+Owner-Based Access Control (Ownable)
+
+Sequential NFT Minting
+
+Testing
+The project includes comprehensive tests for all contracts:
+
+Run all tests: npm run test
+
+Run tests with coverage: npm run test:coverage
+
+Run specific tests: npm run test -- --grep "ContractName"
+
+Deployment and Verification
+Automated Deployment
+The project uses automated scripts for deployment:
+
+Deploy to a specific network: npx hardhat run scripts/deploy.js --network sepolia
+
+Contract Verification
+
+Verify contract on Etherscan:
 npx hardhat verify --network sepolia DEPLOYED_CONTRACT_ADDRESS "Constructor arg 1" "Constructor arg 2"
-```
 
-## Segurança
+Security
+Best Practices
 
-### Boas Práticas
+Use of OpenZeppelin for standard contracts
 
-- Uso de OpenZeppelin para contratos padrão
-- Implementação de pausabilidade em contratos críticos
-- Validação rigorosa de inputs
-- Proteção contra reentrancy attacks
+Implementation of pausable mechanisms in critical contracts
 
-## Contribuição
+Rigorous input validation
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+Protection against reentrancy attacks
 
-## Licença
+Contribution
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Fork the project
 
-## Contato
+Create a feature branch (git checkout -b feature/AmazingFeature)
 
-- **Desenvolvedor**: Adama Augusto Ndiaye
-- **Email**: ndiayeaan1@gmail.com
-- **Twitter**: @Ndiaye___
+Commit your changes (git commit -m 'Add some AmazingFeature')
 
-## Recursos Adicionais
+Push to the branch (git push origin feature/AmazingFeature)
 
-- [Documentação do Hardhat](https://hardhat.org/docs)
-- [OpenZeppelin Contracts](https://docs.openzeppelin.com/contracts)
-- [Solidity Documentation](https://docs.soliditylang.org)
-- [Ethereum Development Documentation](https://ethereum.org/developers)
+Open a Pull Request
 
-## Roadmap
+License
+This project is licensed under the MIT License — see the LICENSE file for details.
 
-- [ ] Configuração inicial do projeto
-- [ ] Implementação dos contratos principais
-- [ ] Testes unitários completos
-- [ ] Deploy em testnet
-- [ ] Auditoria de segurança
-- [ ] Deploy em mainnet
-- [ ] Interface web (dApp)
+Contact
+Developer: Adama Augusto Ndiaye
+Email: ndiayeaan1@gmail.com
 
----
+Twitter: @Ndiaye___
 
-**Desenvolvido para o HackMeridian 2025** 🚀
+Additional Resources
+
+Hardhat Documentation
+
+OpenZeppelin Contracts
+
+Solidity Documentation
+
+Ethereum Development Documentation
+
+Roadmap
+
+Initial project setup
+
+Implementation of main contracts
+
+Complete unit testing
+
+Testnet deployment
+
+Security audit
+
+Mainnet deployment
+
+Web interface (dApp)
+
+Developed for HackMeridian 2025 🚀
